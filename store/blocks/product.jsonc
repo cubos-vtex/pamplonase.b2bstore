@@ -2,7 +2,8 @@
   "store.product": {
     "children": [
       "responsive-layout.mobile#product",
-      "responsive-layout.desktop#product"
+      "responsive-layout.desktop#product",
+      "pa-widget"
     ]
   },
   "condition-layout.product#ThreekitMobile": {
