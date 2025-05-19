@@ -20,7 +20,8 @@
     "ssesandbox04.seller-page": "0.x",
     "ssesandbox04.b2b-suite-bra": "1.x",
     "vtex.affiliates": "1.x",
-    "avantivtexio.representatives": "1.x"
+    "avantivtexio.representatives": "1.x",
+    "vtexventures.personal-shopper-free": "0.x"
   },
   "dependencies": {
     "vtex.store": "2.x",

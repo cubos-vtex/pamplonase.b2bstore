@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "children": ["b2b-context#desktop"]
+    "children": ["b2b-context#desktop", "pa-widget"]
   },
   "b2b-context#desktop": {
     "children": [
