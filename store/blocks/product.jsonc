@@ -55,11 +55,18 @@
     "children": [
       "flex-layout.row#breadcrumb",
       "condition-layout.product#ThreekitMobile",
-      "flex-layout.row#alsoView"
+      // "flex-layout.row#alsoView"
+      "flex-layout.row#recommendation-similar-items",
+      "flex-layout.row#recommendation-cross-selling"
     ]
   },
   "responsive-layout.desktop#product": {
-    "children": ["flex-layout.row#product", "flex-layout.row#alsoView"]
+    "children": [
+      "flex-layout.row#product",
+      // "flex-layout.row#alsoView",
+      "flex-layout.row#recommendation-similar-items",
+      "flex-layout.row#recommendation-cross-selling"
+    ]
   },
   "flex-layout.row#product": {
     "children": ["flex-layout.col#product"]
