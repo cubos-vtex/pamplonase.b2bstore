@@ -1,6 +1,10 @@
 {
   "store.search.product-comparison": {
-    "blocks": ["search-result-layout", "flex-layout.row#newsletter"],
+    "blocks": [
+      "vtex-ads-banner#search-hero",
+      "search-result-layout",
+      "flex-layout.row#newsletter"
+    ],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -10,7 +14,11 @@
     }
   },
   "store.search.product-comparison#brand": {
-    "blocks": ["search-result-layout", "flex-layout.row#newsletter"],
+    "blocks": [
+      "vtex-ads-banner#search-hero",
+      "search-result-layout",
+      "flex-layout.row#newsletter"
+    ],
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
@@ -23,7 +31,11 @@
     }
   },
   "store.search.product-comparison#department": {
-    "blocks": ["search-result-layout", "flex-layout.row#newsletter"],
+    "blocks": [
+      "vtex-ads-banner#search-hero",
+      "search-result-layout",
+      "flex-layout.row#newsletter"
+    ],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -35,7 +47,11 @@
     }
   },
   "store.search.product-comparison#category": {
-    "blocks": ["search-result-layout", "flex-layout.row#newsletter"],
+    "blocks": [
+      "vtex-ads-banner#search-hero",
+      "search-result-layout",
+      "flex-layout.row#newsletter"
+    ],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -47,7 +63,11 @@
     }
   },
   "store.search.product-comparison#subcategory": {
-    "blocks": ["search-result-layout", "flex-layout.row#newsletter"],
+    "blocks": [
+      "vtex-ads-banner#search-hero",
+      "search-result-layout",
+      "flex-layout.row#newsletter"
+    ],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -59,7 +79,11 @@
     }
   },
   "search-result-layout": {
-    "blocks": ["search-result-layout.desktop.product-comparison", "search-result-layout.mobile", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop.product-comparison",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ],
     "props": {
       "fullWidth": true
     }
@@ -89,7 +113,10 @@
     }
   },
   "flex-layout.col#pageContent": {
-    "children": ["flex-layout.col#search-content"],
+    "children": [
+      "flex-layout.col#search-content",
+      "flex-layout.row#vtex-ads-search-top-banner"
+    ],
     "props": {
       "blockClass": "pageContent",
       "preventVerticalStretch": true,
@@ -277,7 +304,11 @@
     }
   },
   "flex-layout.row#searchinfomobile": {
-    "children": ["flex-layout.col#orderByMobile", "flex-layout.col#filterMobile", "flex-layout.col#switcherMobile"],
+    "children": [
+      "flex-layout.col#orderByMobile",
+      "flex-layout.col#filterMobile",
+      "flex-layout.col#switcherMobile"
+    ],
     "props": {
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
