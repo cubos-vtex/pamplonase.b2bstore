@@ -133,6 +133,7 @@
   },
   "flex-layout.col#search-content": {
     "children": [
+      "flex-layout.row#vtex-ads-search-top-sb",
       "flex-layout.row#searchbread",
       "search-banner#top",
       "flex-layout.row#searchtitle",
