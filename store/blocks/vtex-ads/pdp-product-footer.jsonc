@@ -6,7 +6,8 @@
     "title": "VTEX Ads - Product shelf",
     "blocks": ["list-context.product-list-static#vtex-ads"],
     "props": {
-      "placementName": "site_pdp_footer_product"
+      "placementName": "site_pdp_footer_product",
+      "quantity": 10
     }
   },
 
