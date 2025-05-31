@@ -4,7 +4,7 @@
       "blockClass": "summaryComplete"
     },
     "children": [
-      "average-rating",
+      // "average-rating",
       // "product-rating-inline",
       "flex-layout.row#stackSavings",
       "product-summary-name",
@@ -22,7 +22,7 @@
       "blockClass": "summaryComplete"
     },
     "children": [
-      "average-rating",
+      // "average-rating",
       // "product-rating-inline",
       "flex-layout.row#stackSavings",
       "product-summary-name",
@@ -34,6 +34,43 @@
       "add-to-list-btn"
       // "modal-trigger#quickview"
     ]
+  },
+
+  "product-summary.shelf#product-card-custom-ads": {
+    "children": [
+      "vtex-ads-pixel-event",
+      "flex-layout.row#stackSavings",
+      "product-summary-name",
+      "product-summary-space",
+      "flex-layout.row#shelf-specifications",
+      "product-summary-space",
+      "check-permission#product-summary-price-list",
+      // "check-permission#progressive-discount-table",
+      "add-to-list-btn",
+      // "modal-trigger#quickview",
+      "rich-text#vtex-ads-sponsored-tag"
+    ],
+    "props": {
+      "blockClass": ["product-card-custom"]
+    }
+  },
+  "product-summary.shelf#product-card-custom-ads-mini": {
+    "children": [
+      "vtex-ads-pixel-event",
+      "flex-layout.row#stackSavings",
+      "product-summary-name",
+      "product-summary-space",
+      "flex-layout.row#shelf-specifications",
+      "product-summary-space",
+      // "check-permission#product-summary-price-list",
+      // "check-permission#progressive-discount-table",
+      // "add-to-list-btn",
+      // "modal-trigger#quickview",
+      "rich-text#vtex-ads-sponsored-tag"
+    ],
+    "props": {
+      "blockClass": ["product-card-custom"]
+    }
   },
 
   "flex-layout.row#shelf-specifications": {
@@ -102,9 +139,9 @@
   },
   "stack-layout#summary": {
     "children": [
-      "product-summary-image",
+      "product-summary-image"
       // "product-price-savings#summary",
-      "product-price-savings#discount"
+      // "product-price-savings#discount"
     ],
     "props": {
       "zIndexOffset": 3,
@@ -174,7 +211,10 @@
       "paddingTop": 2,
       "experimentalHideEmptyCols": true
     },
-    "children": ["product-comparison-block.selector", "progressive-discount-table#modal"]
+    "children": [
+      "product-comparison-block.selector",
+      "progressive-discount-table#modal"
+    ]
   },
   "progressive-discount-table#modal": {
     "props": {
