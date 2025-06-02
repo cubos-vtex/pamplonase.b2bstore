@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Removed
+
+- Recommendation Shelves.
+
 ## [3.1.1] - 2025-05-31
 
-## [3.1.0] - 2025-05-29
+## [3.1.0] - 2025-05-29 [YANKED]
 
 ### Added
 

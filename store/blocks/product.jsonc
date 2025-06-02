@@ -55,18 +55,14 @@
     "children": [
       "flex-layout.row#breadcrumb",
       "condition-layout.product#ThreekitMobile",
-      // "flex-layout.row#alsoView"
-      "flex-layout.row#recommendation-similar-items",
-      "flex-layout.row#recommendation-cross-selling"
+      "flex-layout.row#alsoView"
     ]
   },
   "responsive-layout.desktop#product": {
     "children": [
       "flex-layout.row#vtex-ads-pdp-top-banner",
       "flex-layout.row#product",
-      // "flex-layout.row#alsoView",
-      "flex-layout.row#recommendation-similar-items",
-      "flex-layout.row#recommendation-cross-selling",
+      "flex-layout.row#alsoView",
       "flex-layout.row#vtex-ads-pdp-products-footer"
     ]
   },

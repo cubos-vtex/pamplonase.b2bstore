@@ -88,8 +88,7 @@
     "ssesandbox04.progressive-discount-table": "2.x",
     "ssesandbox04.demo-warning": "0.x",
     "ssesandbox04.reviews-and-ratings-extensions": "2.x",
-    "pamplonase.vtex-ads": "2.x",
-    "vtex.recommendation-shelf": "2.x"
+    "pamplonase.vtex-ads": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
